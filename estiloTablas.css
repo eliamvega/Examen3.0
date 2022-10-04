@@ -1,0 +1,56 @@
+body{
+  background-color: hsl(198,50%, 85%)
+  font-family:Georgina,'Times New Roman',Times, serif; <!-- dependiendo de los navegadores del cliente el tipo de letra-->
+
+}
+h1{
+  font-size: 3rem;  <!-- pixeles -->
+  text-align:center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+h2{
+  background-color: hsl(198,50%, 50%);
+  font-size: 2rem;
+}
+h3{
+  background-color: hsla(198, 50%, 65%);
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+p{
+  text-align: justify;  <!-- va a estar justificado el texto -->
+
+}
+strong{
+
+  color:#0d01ec;
+}
+blockquote{
+  font-style: italic;
+}
+#uno{  <!-- se invoca -->
+  background-color: black;
+  font-family: Georgina,'Times New Roman', Times, serif;
+
+}
+pre{
+  background-color: black;
+  font-size: 1rem;
+  font-weight: bold;  <!-- ancho bold  -->
+}
+
+
+address{ <!-- -->
+  font-family: serif;
+  font-style: normal;
+  text-align: right;
+}
+.btn{
+  background-color: black;
+  padding: 5px 10px;
+  color: white;text-decoration: none;
+  text-transform: uppercase;
+}
